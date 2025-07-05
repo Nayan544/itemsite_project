@@ -30,8 +30,8 @@ ALLOWED_HOSTS = [
     'www.your-custom-domain.com',
     'localhost',  # optional for local dev
     '127.0.0.1',  # optional for local dev
+    'nayanshop.com','nayanshop.com',
 ]
-ALLOWED_HOSTS = ['nayanshop.com', 'www.nayanshop.com']
 
 # Application definition
 

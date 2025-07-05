@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'localhost',  # optional for local dev
     '127.0.0.1',  # optional for local dev
 ]
-
+ALLOWED_HOSTS = ['nayanshop.com', 'www.nayanshop.com']
 
 # Application definition
 
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',

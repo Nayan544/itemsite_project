@@ -32,6 +32,11 @@ ALLOWED_HOSTS = [
     '127.0.0.1',  # optional for local dev
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://itemsite-project.onrender.com',
+    'https://www.itemsite-project.onrender.com',
+]
+
 # Application definition
 
 INSTALLED_APPS = [

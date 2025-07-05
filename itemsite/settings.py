@@ -27,10 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'itemsite-project.onrender.com',
-    'www.nayan544.pythonanywhere.com',
+    'www.itemsite-project.onrender.com',
     'localhost',  # optional for local dev
     '127.0.0.1',  # optional for local dev
-    'nayanshop.com','nayanshop.com',
 ]
 
 # Application definition
